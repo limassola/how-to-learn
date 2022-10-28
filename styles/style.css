@@ -25,7 +25,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 0 60px 0;
+  margin: 0;
   width: 60%;
   text-align: center;
 }
@@ -38,6 +38,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -88,11 +89,13 @@
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   z-index: 5;
 }
 
@@ -100,11 +103,14 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   z-index: 5;
+  margin: 0;
+  padding: 0;
 }
 
 .header__link {
@@ -148,7 +154,8 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -190,7 +197,7 @@
 /* Feynman */
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -203,14 +210,15 @@
 
 .feynman__title {
   margin: 100px 0 70px 0;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
 }
 
-.feyman__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -218,7 +226,7 @@
   padding: 0;
 }
 
-.feyman__link {
+.feynman__link {
   position: absolute;
   right: 48px;
   top: 50%;
@@ -252,13 +260,10 @@
   width: 877px;
   height: 877px;
   background-size: cover;
+  background-image: url(/images/kaufman-triangle.svg);
 }
 
 /* и элемента с модификатором вида ключ-значение */
-
-.section-subtitle_theme_dark{
-  margin-bottom: 80px;
-}
 
 .table_theme_dark {
   padding-bottom: 90px;
@@ -280,7 +285,8 @@
   min-height: 350px;
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
 }
 
 .footer__columns {
