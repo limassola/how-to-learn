@@ -1,11 +1,40 @@
+/* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtittle.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__link/header__link.css);
+
+/* Logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
+
+/* Description */
+@import url(../blocks/description/description.css);
+
+/* Two-columns */
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text.css/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* Digits */
+@import url(../blocks/digits/digits.css);
+
+/* Section-tittle/subtitle */
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
+/* Table */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+
+
+
 
 .page {
   min-width: 1100px;
@@ -18,116 +47,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color:  #000000;
 }
-
-/* Blocks */
-
-.section-title {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  margin: 0 0 20px 0;
-  width: 60%;
-  text-align: center;
-}
-
-.section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0;
-  width: 60%;
-  text-align: center;
-}
-
-.table {
-  display: flex;
-  width: 1100px;
-  margin: 0 auto;
-  padding: 0 0 100px 0;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
-}
-
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 20px 0 0 0;
-}
-
-/* Discription */
-
-.description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 100px 0;
-}
-
-.two-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.two-columns__brief {
-  max-width: 175px;
-  width: 100%;
-  color: #2f80ed;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 0 30px 0;
-}
-
-.two-columns__paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-/* Digits */
-
-.digits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 /* Feynman */
 
