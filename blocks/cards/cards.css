@@ -4,4 +4,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   list-style-type: none;
+  width: 920px;
+  gap: 100px;
+  padding: 0;
 }
