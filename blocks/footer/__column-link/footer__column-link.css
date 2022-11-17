@@ -7,9 +7,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    transition: all 0.3s;
   }
 
   .footer__column-link:hover {
     opacity: .6;
-    transition: all 0.3s;
   }

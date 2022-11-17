@@ -1,5 +1,5 @@
 /* Vendor */
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* Page */
 @import url(../blocks/page/page.css);
@@ -21,6 +21,8 @@
 /* Section-title/subtitle */
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /* Table */
 @import url(../blocks/table/table.css);
@@ -28,7 +30,9 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /* Description */
 @import url(../blocks/description/description.css);
@@ -66,7 +70,7 @@
 /* Two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-text.css/two-columns__main-text.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
