@@ -9,3 +9,6 @@
 * Css  
 * БЭМ
 * Анимации через css
+
+## GitHub Pages
+https://limassola.github.io/how-to-learn/
