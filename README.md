@@ -10,5 +10,8 @@
 * БЭМ
 * Анимации через css
 
+## Статус проекта
+В будущем планирую добавить адаптивную верстку
+
 ## GitHub Pages
 https://limassola.github.io/how-to-learn/
